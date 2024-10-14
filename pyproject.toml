@@ -1,0 +1,11 @@
+[project]
+name = "rby_1v1_sim"
+version = "0.1.0"
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["battle_engine", "simulated_1v1s"]
